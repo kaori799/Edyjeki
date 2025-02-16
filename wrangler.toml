@@ -1,11 +1,14 @@
-name = "cf-worker-ws-dev"
+name = "herza"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 # node_compat = true
 workers_dev = true
+[[routes]]
+pattern = "id.ikeh.web.id."
+custom_domain = true
 
 [vars]
-# PROXYIP = "211.230.110.231:50008"
-UUID = "1b6c1745-992e-4aac-8685-266c090e50ea"
+PROXYIP = "103.168.146.169:20132"
+UUID = "8963674b-d4b5-4cdb-ab7d-a238fa113136"
 # SOCKS5 = "127.0.0.1:1080"
 # SOCKS5_RELAY = "true"
